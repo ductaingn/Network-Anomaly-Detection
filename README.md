@@ -10,9 +10,9 @@ Network. There are two problems:
 Please note that, currently the dependent variable (target variable) is not defined explicitly.
 However, you can use attack variable to define the target variable as required.
 ## Solution
-- Use a deep neural net to train model to classify activity into 5 groups:
-- - 1. Normal
-- - 2. DOS
-- - 3. PROBE
-- - 4. R2L
-- - 5. U2R
+Use a deep neural net to train model to classify activity into 5 groups:
+- 1. Normal
+- 2. DOS
+- 3. PROBE
+- 4. R2L
+- 5. U2R
