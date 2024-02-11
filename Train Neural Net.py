@@ -46,6 +46,9 @@ for i in range(epoch):
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
+    if(i + epoch_counter > 2500):
+        for group in optimizer.param_groups:
+            group['lr'] *= (torch.e**-1)
 
 torch.save({
     'epoch': epoch,
