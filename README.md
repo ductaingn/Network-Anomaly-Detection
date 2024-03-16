@@ -2,7 +2,7 @@
 Solution to *KDD CUP '99* using Pytorch, Skicit-learn and Pandas
 ## Data
 *KDD CUP '99 Data set*
-## Task Discription 
+## Task Description 
 Build network intrusion detection system to detect anomalies and attacks in the
 Network. There are two problems:
 > 1. Binomial Classification: Activity is normal or attack
